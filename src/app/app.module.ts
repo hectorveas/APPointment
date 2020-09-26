@@ -7,6 +7,9 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { IncioScreenComponent } from './screens/incio-screen/incio-screen.component';
 import { InicioSesionScreenComponent } from './screens/inicio-sesion-screen/inicio-sesion-screen.component';
 import { RegistrarseScreenComponent } from './screens/registrarse-screen/registrarse-screen.component';
+import { SesionPersonalDoctorComponent } from './screens/sesion-personal-doctor/sesion-personal-doctor.component';
+import { SesionPersonalCitasDoctorComponent } from './screens/sesion-personal-citas-doctor/sesion-personal-citas-doctor.component';
+import { SesionPersonalAyudaDoctorComponent } from './screens/sesion-personal-ayuda-doctor/sesion-personal-ayuda-doctor.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { RegistrarseScreenComponent } from './screens/registrarse-screen/registr
     IncioScreenComponent,
     InicioSesionScreenComponent,
     RegistrarseScreenComponent,
+    SesionPersonalDoctorComponent,
+    SesionPersonalCitasDoctorComponent,
+    SesionPersonalAyudaDoctorComponent,
   ],
   imports: [
     BrowserModule,
