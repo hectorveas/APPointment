@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Appointment"
+    }
+  },
+  "defaultProject": "Appointment",
+  "cli": {
+    "analytics": "8d696c37-1290-4ab2-a667-aa3ae31cf129"
+  }
 }
