@@ -3,13 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { IncioScreenComponent } from './screens/incio-screen/incio-screen.component';
 import { InicioSesionScreenComponent } from './screens/inicio-sesion-screen/inicio-sesion-screen.component';
 import { RegistrarseScreenComponent } from './screens/registrarse-screen/registrarse-screen.component';
+import { SesionPersonalCitasDoctorComponent } from './screens/sesion-personal-citas-doctor/sesion-personal-citas-doctor.component';
 
 
 const routes: Routes = [
   {path: '', redirectTo:'/inicio-screen', pathMatch: 'full'},
   {path: 'inicio-sesion-screen', component: InicioSesionScreenComponent },
   {path: 'inicio-screen', component: IncioScreenComponent},
-  {path: 'registrarse-screen',component: RegistrarseScreenComponent},
+  {path: 'registrarse-screen', component: RegistrarseScreenComponent },
+  {path: 'sesion-personal-citas-doctor', component: SesionPersonalCitasDoctorComponent},
   {path: '**', redirectTo:'/inicio-screen'}
 ];
 
