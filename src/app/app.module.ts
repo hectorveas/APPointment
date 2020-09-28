@@ -10,6 +10,7 @@ import { RegistrarseScreenComponent } from './screens/registrarse-screen/registr
 import { SesionPersonalDoctorComponent } from './screens/sesion-personal-doctor/sesion-personal-doctor.component';
 import { SesionPersonalCitasDoctorComponent } from './screens/sesion-personal-citas-doctor/sesion-personal-citas-doctor.component';
 import { SesionPersonalAyudaDoctorComponent } from './screens/sesion-personal-ayuda-doctor/sesion-personal-ayuda-doctor.component';
+import { NavVarIzqComponent } from './nav-var-izq/nav-var-izq.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { SesionPersonalAyudaDoctorComponent } from './screens/sesion-personal-ay
     SesionPersonalDoctorComponent,
     SesionPersonalCitasDoctorComponent,
     SesionPersonalAyudaDoctorComponent,
+    NavVarIzqComponent,
   ],
   imports: [
     BrowserModule,
