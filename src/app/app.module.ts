@@ -9,6 +9,7 @@ import { InicioSesionScreenComponent } from './screens/inicio-sesion-screen/inic
 import { RegistrarseScreenComponent } from './screens/registrarse-screen/registrarse-screen.component';
 import { MenuScreenComponent } from './screens/menu-screen/menu-screen.component';
 import { AyudaScreenComponent } from './screens/ayuda-screen/ayuda-screen.component';
+import { NavVarIzqComponent } from './nav-var-izq/nav-var-izq.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AyudaScreenComponent } from './screens/ayuda-screen/ayuda-screen.compon
     RegistrarseScreenComponent,
     MenuScreenComponent,
     AyudaScreenComponent,
+    NavVarIzqComponent,
   ],
   imports: [
     BrowserModule,
