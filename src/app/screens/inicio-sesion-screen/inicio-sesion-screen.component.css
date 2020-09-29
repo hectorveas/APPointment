@@ -9,7 +9,7 @@ form input {
   width: 30%;
 }
 form .ng-touched {
-  background-color: white;
+  background-color: #FFBFBF;
 }
 form #mensaje {
   clear: both;
@@ -18,13 +18,10 @@ form #mensaje {
 form #mensaje .text-muted {
   color: red !important;
 }
-form #informacion ul {
-  list-style-type: none;
-}
-form #informacion ul li {
-  float: left;
-  margin: 10px;
-}
 form .lleno {
   visibility: hidden;
+}
+#cajaformulario {
+  margin-left: 20%;
+  margin-right: 20%;
 }
