@@ -10,10 +10,6 @@ import { RegistrarseScreenComponent } from './screens/registrarse-screen/registr
 import { SesionPersonalDoctorComponent } from './screens/sesion-personal-doctor/sesion-personal-doctor.component';
 import { SesionPersonalCitasDoctorComponent } from './screens/sesion-personal-citas-doctor/sesion-personal-citas-doctor.component';
 import { SesionPersonalAyudaDoctorComponent } from './screens/sesion-personal-ayuda-doctor/sesion-personal-ayuda-doctor.component';
-<<<<<<< HEAD
-import { ConsultasCardComponent } from './components/consultas-card/consultas-card.component';
-import { NavBarIzqComponent } from './components/nav-bar-izq/nav-bar-izq.component';
-=======
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {ReactiveFormsModule, FormsModule } from '@angular/forms';
@@ -26,7 +22,6 @@ import { ConsultasCardComponent } from './components/consultas-card/consultas-ca
 import { NavBarIzqComponent } from './components/nav-bar-izq/nav-bar-izq.component';
 import { FooterComponent } from './components/footer/footer.component';
 
->>>>>>> testing
 
 @NgModule({
   declarations: [
@@ -40,10 +35,7 @@ import { FooterComponent } from './components/footer/footer.component';
     SesionPersonalAyudaDoctorComponent,
     ConsultasCardComponent,
     NavBarIzqComponent,
-<<<<<<< HEAD
-=======
     FooterComponent,
->>>>>>> testing
   ],
   imports: [
     BrowserModule,

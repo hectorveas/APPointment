@@ -14,10 +14,7 @@ export class SesionPersonalDoctorComponent implements OnInit {
   public ModificarFono: string;
   public ModificarContrasena: string;
   public ModificarRut: string;
-<<<<<<< HEAD
-=======
   public screenHeight: number;
->>>>>>> testing
 
   constructor() {
     this.URLfoto = 'https://falabella.scene7.com/is/image/Falabella/12005138_1?wid=1500&hei=1500&qlt=70';
@@ -35,7 +32,6 @@ export class SesionPersonalDoctorComponent implements OnInit {
     } else[
       this.ModificarNombres = 'disabled'
     ]
-<<<<<<< HEAD
   }
 
   modificaApellidos() {
@@ -70,42 +66,6 @@ export class SesionPersonalDoctorComponent implements OnInit {
     ]
   }
 
-=======
-  }
-
-  modificaApellidos() {
-    if (this.ModificarApellidos === 'disabled') {
-      this.ModificarApellidos = ''
-    } else[
-      this.ModificarApellidos = 'disabled'
-    ]
-  }
-
-  modificaEmail() {
-    if (this.ModificarEmail === 'disabled') {
-      this.ModificarEmail = ''
-    } else[
-      this.ModificarEmail = 'disabled'
-    ]
-  }
-
-  modificaFono() {
-    if (this.ModificarFono === 'disabled') {
-      this.ModificarFono = ''
-    } else[
-      this.ModificarFono = 'disabled'
-    ]
-  }
-
-  modificaContrasena() {
-    if (this.ModificarContrasena === 'disabled') {
-      this.ModificarContrasena = ''
-    } else[
-      this.ModificarContrasena = 'disabled'
-    ]
-  }
-
->>>>>>> testing
   modificaRut() {
     if (this.ModificarRut === 'disabled') {
       this.ModificarRut = ''
@@ -114,12 +74,6 @@ export class SesionPersonalDoctorComponent implements OnInit {
     ]
   }
 
-<<<<<<< HEAD
-  ngOnInit(): void {
-    
-  }
-}
-=======
 
   ngOnInit(): void {
 
@@ -128,4 +82,3 @@ export class SesionPersonalDoctorComponent implements OnInit {
     this.screenHeight = height;
   }
 }
->>>>>>> testing

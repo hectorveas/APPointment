@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
-=======
 import { Router } from '@angular/router';
->>>>>>> testing
 
 @Component({
   selector: 'app-nav-bar-izq',
@@ -11,18 +8,11 @@ import { Router } from '@angular/router';
 })
 export class NavBarIzqComponent implements OnInit {
 
-<<<<<<< HEAD
-  constructor() { }
-=======
   constructor(private router:Router) { }
->>>>>>> testing
 
   ngOnInit(): void {
   }
 
-<<<<<<< HEAD
-}
-=======
   sesion(){
     this.router.navigate(['/sesion-personal-doctor']);
   }
@@ -36,4 +26,3 @@ export class NavBarIzqComponent implements OnInit {
   }
 
 }
->>>>>>> testing
