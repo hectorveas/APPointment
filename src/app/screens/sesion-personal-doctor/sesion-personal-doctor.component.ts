@@ -14,6 +14,7 @@ export class SesionPersonalDoctorComponent implements OnInit {
   public ModificarFono: string;
   public ModificarContrasena: string;
   public ModificarRut: string;
+  public screenHeight: number;
 
   constructor() {
     this.URLfoto = 'https://falabella.scene7.com/is/image/Falabella/12005138_1?wid=1500&hei=1500&qlt=70';
@@ -73,7 +74,11 @@ export class SesionPersonalDoctorComponent implements OnInit {
     ]
   }
 
+
   ngOnInit(): void {
-    
+
+    let { height } = window.screen;
+
+    this.screenHeight = height;
   }
 }

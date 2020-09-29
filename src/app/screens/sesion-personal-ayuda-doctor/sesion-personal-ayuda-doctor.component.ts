@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sesion-personal-ayuda-doctor.component.less']
 })
 export class SesionPersonalAyudaDoctorComponent implements OnInit {
-
+  
+  public screenHeight: number;
   constructor() { }
 
+  
   ngOnInit(): void {
+
+    let { height } = window.screen;
+
+    this.screenHeight = height;
   }
 
 }
