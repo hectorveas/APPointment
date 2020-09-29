@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Cita } from 'src/app/models/citas-card.models';
+import { CitasCardService } from 'src/app/services/Citas/citas-card.service';
 
 @Component({
   selector: 'app-sesion-personal-citas-doctor',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SesionPersonalCitasDoctorComponent implements OnInit {
 
-  constructor() { }
 
+  public citas: Cita[];
+  public screenHeight: number;
+
+  constructor(private citasCard: CitasCardService) {
+  }
+  
   ngOnInit(): void {
+
+    let { height } = window.screen;
+    
+
+    this.screenHeight = height;
+    this.citas = this.citasCard.getAllProducts();
   }
 
 }
