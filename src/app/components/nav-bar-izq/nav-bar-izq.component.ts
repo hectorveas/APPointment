@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-nav-var-izq',
+  selector: 'app-nav-bar-izq',
   templateUrl: './nav-bar-izq.component.html',
   styleUrls: ['./nav-bar-izq.component.less']
 })
