@@ -11,6 +11,7 @@ import { SesionPersonalDoctorComponent } from './screens/sesion-personal-doctor/
 import { SesionPersonalCitasDoctorComponent } from './screens/sesion-personal-citas-doctor/sesion-personal-citas-doctor.component';
 import { SesionPersonalAyudaDoctorComponent } from './screens/sesion-personal-ayuda-doctor/sesion-personal-ayuda-doctor.component';
 import { ConsultasCardComponent } from './components/consultas-card/consultas-card.component';
+import { NavBarIzqComponent } from './components/nav-bar-izq/nav-bar-izq.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ConsultasCardComponent } from './components/consultas-card/consultas-ca
     SesionPersonalCitasDoctorComponent,
     SesionPersonalAyudaDoctorComponent,
     ConsultasCardComponent,
+    NavBarIzqComponent,
   ],
   imports: [
     BrowserModule,
