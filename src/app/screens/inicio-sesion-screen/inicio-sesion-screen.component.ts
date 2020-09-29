@@ -27,6 +27,10 @@ export class InicioSesionScreenComponent implements OnInit {
     });
   }
 
+  SesionIniciada(){
+    this.router.navigate(['/sesion-personal-doctor']);
+  }
+
   onSubmit(){
     this.mensaje="datos completados";
     this.isDivVisible=true;

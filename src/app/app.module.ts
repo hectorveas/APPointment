@@ -18,6 +18,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatInputModule} from '@angular/material/input';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import {MatInputModule} from '@angular/material/input';
     SesionPersonalDoctorComponent,
     SesionPersonalCitasDoctorComponent,
     SesionPersonalAyudaDoctorComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

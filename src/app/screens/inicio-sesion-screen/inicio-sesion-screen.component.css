@@ -9,7 +9,7 @@ form input {
   width: 30%;
 }
 form .ng-touched {
-  background-color: white;
+  background-color: #FFBFBF;
 }
 form #mensaje {
   clear: both;
@@ -27,4 +27,8 @@ form #informacion ul li {
 }
 form .lleno {
   visibility: hidden;
+}
+#cajaformulario {
+  margin-left: 20%;
+  margin-right: 20%;
 }
