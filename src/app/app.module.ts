@@ -8,6 +8,7 @@ import { IncioScreenComponent } from './screens/incio-screen/incio-screen.compon
 import { InicioSesionScreenComponent } from './screens/inicio-sesion-screen/inicio-sesion-screen.component';
 import { RegistrarseScreenComponent } from './screens/registrarse-screen/registrarse-screen.component';
 import { MenuScreenComponent } from './screens/menu-screen/menu-screen.component';
+import { AyudaScreenComponent } from './screens/ayuda-screen/ayuda-screen.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MenuScreenComponent } from './screens/menu-screen/menu-screen.component
     IncioScreenComponent,
     InicioSesionScreenComponent,
     RegistrarseScreenComponent,
-    MenuScreenComponent
+    MenuScreenComponent,
+    AyudaScreenComponent,
   ],
   imports: [
     BrowserModule,

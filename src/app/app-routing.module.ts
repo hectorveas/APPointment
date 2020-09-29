@@ -4,7 +4,7 @@ import { IncioScreenComponent } from './screens/incio-screen/incio-screen.compon
 import { InicioSesionScreenComponent } from './screens/inicio-sesion-screen/inicio-sesion-screen.component';
 import { MenuScreenComponent } from './screens/menu-screen/menu-screen.component';
 import { RegistrarseScreenComponent } from './screens/registrarse-screen/registrarse-screen.component';
-
+import { AyudaScreenComponent } from './screens/ayuda-screen/ayuda-screen.component';
 
 const routes: Routes = [
   {path: '', redirectTo:'/inicio-screen', pathMatch: 'full'},
@@ -12,7 +12,7 @@ const routes: Routes = [
   {path: 'inicio-screen', component: IncioScreenComponent},
   {path: 'registrarse-screen',component: RegistrarseScreenComponent},
   {path: 'menu-screen', component: MenuScreenComponent},
-
+  {path: 'ayuda-screen', component: AyudaScreenComponent}
 ];
 
 @NgModule({
