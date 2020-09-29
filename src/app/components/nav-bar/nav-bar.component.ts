@@ -25,12 +25,6 @@ export class NavBarComponent implements OnInit {
     this.router.navigate(['/registrarse-screen']);
   }
 
-  navegarCerrarSesion(){
-    this.router.navigate(['/menu-screen']);
-  }
-
-
-
   navegarContacto(){
     this.router.navigate(['/#contact']);
   }
