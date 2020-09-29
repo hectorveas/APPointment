@@ -18,6 +18,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatInputModule} from '@angular/material/input';
+import { ConsultasCardComponent } from './components/consultas-card/consultas-card.component';
+import { NavBarIzqComponent } from './components/nav-bar-izq/nav-bar-izq.component';
 
 
 @NgModule({
@@ -30,6 +32,8 @@ import {MatInputModule} from '@angular/material/input';
     SesionPersonalDoctorComponent,
     SesionPersonalCitasDoctorComponent,
     SesionPersonalAyudaDoctorComponent,
+    ConsultasCardComponent,
+    NavBarIzqComponent,
   ],
   imports: [
     BrowserModule,

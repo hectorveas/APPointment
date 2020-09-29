@@ -34,14 +34,9 @@
                </div>
            </div>
    
-       <button class="button" type="submit" [disabled]="!checkoutForm.valid">Iniciar Sesión</button>
+       <button class="button" type="submit" [disabled]="!checkoutForm.valid" (click)="iniciarsesion()">Iniciar Sesión</button>
+       
    
-       <div id='informacion'>
-           <ul>
-           <li>Recuperar contraseña</li>
-           <li>Registrarse</li>
-           </ul>
-       </div>
    </div>
    </form>
 </div>
