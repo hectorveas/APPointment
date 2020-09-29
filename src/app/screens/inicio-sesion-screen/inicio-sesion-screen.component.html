@@ -1,37 +1,58 @@
 <app-nav-bar></app-nav-bar>
-
-<div class="container-fluid mt-5 bg-light">
-    <div class="row">
-        <div class="col-12 text-center">
-            <div class="container text-center">
-                <form class="pr-5 pl-5">
-                    <div class="form-group">
-                        <label for="exampleDropdownFormEmail1">Usuario</label>
-                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+<div class="container-fluid mt-5">
+    <div id= "cajaformulario" class=" text-center">
+        <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+            
+            <div id='mensaje' [style.visibility]="isDivVisible ? 'visible' : 'hidden'" class="alert alert-success" role="alert">{{mensaje}}</div>
+        
+            <div id='formulario' [ngClass]="{lleno: mensaje}">
+                <h3>Iniciar Sesión</h3>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">
+                            <mat-icon aria-hidden="false"  aria-label="Icono de usuario" inline=true>account_circle</mat-icon> 
+                        </span>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleDropdownFormPassword1">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña">
+                    <input id="usuario" name='usuario' class="form-control" type="email" formControlName="usuario" placeholder="Usuario">
+                    <div id='mensaje'>
+                        <small id="emailHelp" class="form-text text-muted" *ngIf="(usuario.dirty || usuario.touched) && usuario.invalid && usuario.errors.required"> Requerido  </small>
+                        <small id="emailHelp" class="form-text text-muted" *ngIf="(usuario.dirty || usuario.touched) && usuario.invalid && usuario.errors.pattern">Formato email requerido</small>
                     </div>
-                    <div class="form-group">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
-                            <label class="form-check-label" for="dropdownCheck">
-                          Recordarme
-                        </label>
-                        </div>
+                </div>
+        
+            <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">
+        
+                            <mat-icon aria-hidden="false"  aria-label="Password icono" inline=true>https</mat-icon> 
+        
+                        </span>
                     </div>
-                    <button type="submit" class="btn btn-primary" (click)="navegarScreen()">Ingresar</button>
-                </form>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">¿Has Olvidado Tu Contraseña?</a>
+                    <input id="password" class="form-control" type="password" formControlName="password" placeholder="Password">
+                    <div id='mensaje'>
+                        <small id="emailHelp" class="form-text text-muted" *ngIf="(password.dirty || password.touched) && password.invalid && password.errors.required"> Requerido </small>
+                    </div>
+                </div>
+        
+                <button class="button"  type="submit" [disabled]="!checkoutForm.valid" (click)="SesionIniciada()">Iniciar Sesión</button>
+        
             </div>
+        </form>
+    </div>
+    <div class="row mt-5">
+        <div class="col-12 text-center mb-5">
+            <img src="/assets/2.png" class="img-fluid" alt="Responsive image">
         </div>
     </div>
 </div>
 
-<p>inicio-sesion-screen works!</p>
 
+<<<<<<< HEAD
 <button type="button" class="btn btn-primary" (click)="navegarScreen()">inicio</button>
 <p> Pa probar</p>
 <button type="button" class="btn btn-primary" (click)="navegarSesionDoctor()">Doctor</button>
+=======
+
+<app-footer></app-footer>
+
+>>>>>>> testing
