@@ -12,10 +12,10 @@
                 <div class="card-body bg-light ">
                     <div class="row">
                         <div class="col-6">
-                            <button type="button" class=" btn btn-light btn-lg btn-outline-success" (click)="navegarPersonal()"> <span><i class="fas fa-user-md"></i></span> Personal</button>
+                            <button type="button" class="btn btn-info btn-lg" (click)="navegarPersonal()"> <span><i class="fas fa-user-md"></i></span> Personal</button>
                         </div>
                         <div class="col-6">
-                            <button type="button" class="btn btn-info btn-lg" (click)="navegarUsuario()"> <span><i class="fas fa-user"></i></span> Usuario</button>
+                            <button type="button" class="btn btn-light btn-lg btn-outline-success" (click)="navegarUsuario()" > <span><i class="fas fa-user"></i></span> Usuario</button>
                         </div>
                     </div>
                   <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
@@ -29,7 +29,7 @@
                                     <mat-icon aria-hidden="false"  aria-label="Icono de usuario" inline=true>account_circle</mat-icon> 
                                 </span>
                             </div>
-                            <input id="usuario" name='usuario' class="form-control" type="email" formControlName="usuario" placeholder="Personal">
+                            <input id="usuario" name='usuario' class="form-control" type="email" formControlName="usuario" placeholder="Usuario">
                             <div id='mensaje'>
                                 <small id="emailHelp" class="form-text text-muted" *ngIf="(usuario.dirty || usuario.touched) && usuario.invalid && usuario.errors.required"> Requerido  </small>
                                 <small id="emailHelp" class="form-text text-muted" *ngIf="(usuario.dirty || usuario.touched) && usuario.invalid && usuario.errors.pattern">Formato email requerido</small>
