@@ -21,6 +21,7 @@ import {MatInputModule} from '@angular/material/input';
 import { ConsultasCardComponent } from './components/consultas-card/consultas-card.component';
 import { NavBarIzqComponent } from './components/nav-bar-izq/nav-bar-izq.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { InicioSesionUsuarioScreenComponent } from './screens/inicio-sesion-usuario-screen/inicio-sesion-usuario-screen.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { FooterComponent } from './components/footer/footer.component';
     ConsultasCardComponent,
     NavBarIzqComponent,
     FooterComponent,
+    InicioSesionUsuarioScreenComponent,
   ],
   imports: [
     BrowserModule,
