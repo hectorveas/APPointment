@@ -10,9 +10,6 @@ import { RegistrarseScreenComponent } from './screens/registrarse-screen/registr
 import { SesionPersonalDoctorComponent } from './screens/sesion-personal-doctor/sesion-personal-doctor.component';
 import { SesionPersonalCitasDoctorComponent } from './screens/sesion-personal-citas-doctor/sesion-personal-citas-doctor.component';
 import { SesionPersonalAyudaDoctorComponent } from './screens/sesion-personal-ayuda-doctor/sesion-personal-ayuda-doctor.component';
-<<<<<<< HEAD
-import { NavVarIzqComponent } from './nav-var-izq/nav-var-izq.component';
-=======
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {ReactiveFormsModule, FormsModule } from '@angular/forms';
@@ -26,7 +23,6 @@ import { NavBarIzqComponent } from './components/nav-bar-izq/nav-bar-izq.compone
 import { FooterComponent } from './components/footer/footer.component';
 import { InicioSesionUsuarioScreenComponent } from './screens/inicio-sesion-usuario-screen/inicio-sesion-usuario-screen.component';
 
->>>>>>> dad921e2459be32db1014136d9e1f47f086ef74c
 
 @NgModule({
   declarations: [
@@ -38,14 +34,10 @@ import { InicioSesionUsuarioScreenComponent } from './screens/inicio-sesion-usua
     SesionPersonalDoctorComponent,
     SesionPersonalCitasDoctorComponent,
     SesionPersonalAyudaDoctorComponent,
-<<<<<<< HEAD
-    NavVarIzqComponent,
-=======
     ConsultasCardComponent,
     NavBarIzqComponent,
     FooterComponent,
     InicioSesionUsuarioScreenComponent,
->>>>>>> dad921e2459be32db1014136d9e1f47f086ef74c
   ],
   imports: [
     BrowserModule,
