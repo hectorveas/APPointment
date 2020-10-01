@@ -3,11 +3,11 @@ import { Router } from '@angular/router';
 import {FormControl, FormGroup, Validators,ReactiveFormsModule} from '@angular/forms';
 
 @Component({
-  selector: 'app-inicio-sesion-screen',
-  templateUrl: './inicio-sesion-screen.component.html',
-  styleUrls: ['./inicio-sesion-screen.component.less']
+  selector: 'app-inicio-sesion-usuario-screen',
+  templateUrl: './inicio-sesion-usuario-screen.component.html',
+  styleUrls: ['./inicio-sesion-usuario-screen.component.less']
 })
-export class InicioSesionScreenComponent implements OnInit {
+export class InicioSesionUsuarioScreenComponent implements OnInit {
 
   checkoutForm: FormGroup;
   mensaje:string="";
@@ -28,7 +28,7 @@ export class InicioSesionScreenComponent implements OnInit {
   }
 
   SesionIniciada(){
-    this.router.navigate(['/sesion-personal-doctor']);
+    this.router.navigate(['/sesion-personal-doctor-cambiar']);
   }
 
   navegarPersonal(){
@@ -46,5 +46,6 @@ export class InicioSesionScreenComponent implements OnInit {
 
   get usuario() { return this.checkoutForm.get('usuario'); }
   get password() { return this.checkoutForm.get('password'); }
+
 
 }
