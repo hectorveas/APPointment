@@ -22,6 +22,11 @@ import { ConsultasCardComponent } from './components/consultas-card/consultas-ca
 import { NavBarIzqComponent } from './components/nav-bar-izq/nav-bar-izq.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { InicioSesionUsuarioScreenComponent } from './screens/inicio-sesion-usuario-screen/inicio-sesion-usuario-screen.component';
+import { CrudDoctorComponent } from './components/crud-doctor/crud-doctor.component';
+import { CrudUsuarioComponent } from './components/crud-usuario/crud-usuario.component';
+import { AgregarCitaComponent } from './components/crud-doctor/agregar-cita/agregar-cita.component';
+import { ModificarCitaComponent } from './components/crud-doctor/modificar-cita/modificar-cita.component';
+import { EliminarCitaComponent } from './components/crud-doctor/eliminar-cita/eliminar-cita.component';
 
 
 @NgModule({
@@ -38,6 +43,11 @@ import { InicioSesionUsuarioScreenComponent } from './screens/inicio-sesion-usua
     NavBarIzqComponent,
     FooterComponent,
     InicioSesionUsuarioScreenComponent,
+    CrudDoctorComponent,
+    CrudUsuarioComponent,
+    AgregarCitaComponent,
+    ModificarCitaComponent,
+    EliminarCitaComponent,
   ],
   imports: [
     BrowserModule,

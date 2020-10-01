@@ -28,7 +28,7 @@ export class InicioSesionScreenComponent implements OnInit {
   }
 
   SesionIniciada(){
-    this.router.navigate(['/sesion-personal-doctor']);
+    this.router.navigate(['/sesion-personal-citas-doctor']);
   }
 
   navegarPersonal(){

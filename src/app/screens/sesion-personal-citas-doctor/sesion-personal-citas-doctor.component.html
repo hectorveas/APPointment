@@ -10,17 +10,86 @@
         </div>
         <!-- col-2 izquierda -->
         <div class="col-lg-10 col-12"> <!-- quiero agregar un padding left -->
-            <div class="row bg-light  p-2">
+            <div class="row bg-light p-2">
                 <div class="col-4">
-                    <button type="button" class="btn btn-outline-warning">Agregar cita</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">
+                        <i class="fas fa-plus-circle"></i> Agregar cita
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header bg-info">
+                                    <h4 class="modal-title text-white" id="staticBackdropLabel">Agregar cita</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-info">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- col-4 -->
                 <div class="col-4">
-                    <button type="button" class="btn btn-outline-warning">Modificar cita</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">
+                        <i class="fas fa-exchange-alt"></i> Modificar cita
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title text-white" id="staticBackdropLabel2">Modificar cita</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-info">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- col-4 -->
                 <div class="col-4">
-                    <button type="button" class="btn btn-outline-warning">Eliminar cita</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#staticBackdrop">
+                        <i class="fas fa-trash-alt"></i> Eliminar cita
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title text-white" id="staticBackdropLabel">Eliminar cita</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-info">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- col-4 -->
             </div>
