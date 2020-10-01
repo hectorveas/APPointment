@@ -11,6 +11,9 @@ form input {
 form .ng-touched {
   background-color: #FFBFBF;
 }
+form .ng-valid {
+  background-color: #C5EC9B;
+}
 form #mensaje {
   clear: both;
   width: 100%;
