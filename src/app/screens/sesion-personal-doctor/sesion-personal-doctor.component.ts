@@ -79,6 +79,6 @@ export class SesionPersonalDoctorComponent implements OnInit {
 
     let { height } = window.screen;
 
-    this.screenHeight = 730;
+    this.screenHeight = 800;
   }
 }
