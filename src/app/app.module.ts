@@ -26,6 +26,8 @@ import { ContactanosScreenComponent } from './screens/contactanos-screen/contact
 import { ModificarCitaCardComponent } from './components/modificar-cita-card/modificar-cita-card.component';
 import { EliminarCitaCardComponent } from './components/eliminar-cita-card/eliminar-cita-card.component';
 import { AgregarCitaCardComponent } from './components/agregar-cita-card/agregar-cita-card.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -58,7 +60,8 @@ import { AgregarCitaCardComponent } from './components/agregar-cita-card/agregar
     MatIconModule,
     MatListModule,
     MatMenuModule,
-    MatInputModule
+    MatInputModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
