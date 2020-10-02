@@ -10,12 +10,9 @@ form input {
 }
 form .ng-touched {
   background-color: #FFBFBF;
-<<<<<<< HEAD
-=======
 }
 form .ng-valid {
   background-color: #C5EC9B;
->>>>>>> testing
 }
 form #mensaje {
   clear: both;
@@ -27,16 +24,9 @@ form #mensaje .text-muted {
 form .lleno {
   visibility: hidden;
 }
-<<<<<<< HEAD
-#cajaformulario {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-=======
 /*
 #cajaformulario{
     margin-left: 20%;
     margin-right: 20%;
 }
 */
->>>>>>> testing

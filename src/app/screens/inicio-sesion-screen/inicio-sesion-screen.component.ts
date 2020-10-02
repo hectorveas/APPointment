@@ -31,8 +31,6 @@ export class InicioSesionScreenComponent implements OnInit {
     this.router.navigate(['/sesion-personal-doctor']);
   }
 
-<<<<<<< HEAD
-=======
   navegarPersonal(){
     this.router.navigate(['/inicio-sesion-screen'])
   }
@@ -41,7 +39,6 @@ export class InicioSesionScreenComponent implements OnInit {
     this.router.navigate(['/inicio-sesion-usuario-screen'])
   }
 
->>>>>>> testing
   onSubmit(){
     this.mensaje="datos completados";
     this.isDivVisible=true;
