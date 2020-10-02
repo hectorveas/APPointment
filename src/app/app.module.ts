@@ -18,7 +18,14 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatInputModule} from '@angular/material/input';
+<<<<<<< HEAD
 import { FooterComponent } from './components/footer/footer.component';
+=======
+import { ConsultasCardComponent } from './components/consultas-card/consultas-card.component';
+import { NavBarIzqComponent } from './components/nav-bar-izq/nav-bar-izq.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { InicioSesionUsuarioScreenComponent } from './screens/inicio-sesion-usuario-screen/inicio-sesion-usuario-screen.component';
+>>>>>>> testing
 
 
 @NgModule({
@@ -31,7 +38,14 @@ import { FooterComponent } from './components/footer/footer.component';
     SesionPersonalDoctorComponent,
     SesionPersonalCitasDoctorComponent,
     SesionPersonalAyudaDoctorComponent,
+<<<<<<< HEAD
     FooterComponent,
+=======
+    ConsultasCardComponent,
+    NavBarIzqComponent,
+    FooterComponent,
+    InicioSesionUsuarioScreenComponent,
+>>>>>>> testing
   ],
   imports: [
     BrowserModule,
