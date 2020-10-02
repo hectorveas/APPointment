@@ -23,7 +23,7 @@ export class SesionPersonalAyudaDoctorComponent implements OnInit {
 
     let { height } = window.screen;
 
-    this.screenHeight = height;
+    this.screenHeight = 730;
   }
 
   createFormGroup() {

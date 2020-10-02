@@ -24,7 +24,7 @@ export class SesionPersonalCitasDoctorComponent implements OnInit {
 
     let { height } = window.screen;
     
-    this.screenHeight = height;
+    this.screenHeight = 800;
     this.citas = this.citasCard.getAllCitas();
     //this.cita = this.citasCard.getCitaByID(this.id);
   }
