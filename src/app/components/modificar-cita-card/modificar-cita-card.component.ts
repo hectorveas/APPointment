@@ -37,7 +37,7 @@ export class ModificarCitaCardComponent implements OnInit {
   }
 
   onSubmit(){
-    this.mensaje="Datos enviados";
+    this.mensaje="Cita modificada correctamente";
     this.isDivVisible = true;
     this.citasService.modificarCita(this.citaId,
       {

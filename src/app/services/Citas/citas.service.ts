@@ -17,7 +17,9 @@ export class CitasService {
   }
 
   public agregarCita(id: number, citaAgregar: Cita) {
-    this.citas.concat(citaAgregar)
+    this.citas.concat(citaAgregar);
+    this.citas[this.citas.length]._id = id;
+    this.citas[this.citas.length].estadoCita = "Reciente";
   }
 
   public modificarCita(id: number, citaModificar: Partial<Cita>) {
