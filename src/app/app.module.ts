@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-import { IncioScreenComponent } from './screens/incio-screen/incio-screen.component';
+import { InicioScreenComponent } from './screens/incio-screen/incio-screen.component';
 import { InicioSesionScreenComponent } from './screens/inicio-sesion-screen/inicio-sesion-screen.component';
 import { RegistrarseScreenComponent } from './screens/registrarse-screen/registrarse-screen.component';
 import { SesionPersonalDoctorComponent } from './screens/sesion-personal-doctor/sesion-personal-doctor.component';
@@ -22,18 +22,17 @@ import { ConsultasCardComponent } from './components/consultas-card/consultas-ca
 import { NavBarIzqComponent } from './components/nav-bar-izq/nav-bar-izq.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { InicioSesionUsuarioScreenComponent } from './screens/inicio-sesion-usuario-screen/inicio-sesion-usuario-screen.component';
-import { CrudDoctorComponent } from './components/crud-doctor/crud-doctor.component';
-import { CrudUsuarioComponent } from './components/crud-usuario/crud-usuario.component';
-import { AgregarCitaComponent } from './components/crud-doctor/agregar-cita/agregar-cita.component';
-import { ModificarCitaComponent } from './components/crud-doctor/modificar-cita/modificar-cita.component';
-import { EliminarCitaComponent } from './components/crud-doctor/eliminar-cita/eliminar-cita.component';
+import { ContactanosScreenComponent } from './screens/contactanos-screen/contactanos-screen.component';
+import { ModificarCitaCardComponent } from './components/modificar-cita-card/modificar-cita-card.component';
+import { EliminarCitaCardComponent } from './components/eliminar-cita-card/eliminar-cita-card.component';
+import { AgregarCitaCardComponent } from './components/agregar-cita-card/agregar-cita-card.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    IncioScreenComponent,
+    InicioScreenComponent,
     InicioSesionScreenComponent,
     RegistrarseScreenComponent,
     SesionPersonalDoctorComponent,
@@ -43,11 +42,10 @@ import { EliminarCitaComponent } from './components/crud-doctor/eliminar-cita/el
     NavBarIzqComponent,
     FooterComponent,
     InicioSesionUsuarioScreenComponent,
-    CrudDoctorComponent,
-    CrudUsuarioComponent,
-    AgregarCitaComponent,
-    ModificarCitaComponent,
-    EliminarCitaComponent,
+    ContactanosScreenComponent,
+    ModificarCitaCardComponent,
+    EliminarCitaCardComponent,
+    AgregarCitaCardComponent,
   ],
   imports: [
     BrowserModule,

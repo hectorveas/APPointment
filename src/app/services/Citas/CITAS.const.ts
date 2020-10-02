@@ -31,4 +31,27 @@ export const CITAS: Cita[] = [
     descripcion: "Vomito repentino y nauceas",
     estadoCita: "Realizada",
   },
+  { 
+    _id: 5,
+    nombrePaciente: "Cristian",
+    fechaSolicitud: new Date(),
+    descripcion: "Otitis aguda",
+    estadoCita: "Cancelada",
+    motivoCancelacion: "Se fracturó el pie antes de ir",
+    personaCancelar: "Cristian"
+  },
+  { 
+    _id: 6,
+    nombrePaciente: "Francisco",
+    fechaSolicitud: new Date(),
+    descripcion: "Amigdalitis",
+    estadoCita: "Realizada",
+  },
+  { 
+    _id: 7,
+    nombrePaciente: "Edgard",
+    fechaSolicitud: new Date(),
+    descripcion: "Dolores musculares",
+    estadoCita: "Reciente",
+  },
 ];

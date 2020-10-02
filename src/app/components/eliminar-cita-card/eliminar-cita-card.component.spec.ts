@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CrudDoctorComponent } from './crud-doctor.component';
+import { EliminarCitaCardComponent } from './eliminar-cita-card.component';
 
-describe('CrudDoctorComponent', () => {
-  let component: CrudDoctorComponent;
-  let fixture: ComponentFixture<CrudDoctorComponent>;
+describe('EliminarCitaCardComponent', () => {
+  let component: EliminarCitaCardComponent;
+  let fixture: ComponentFixture<EliminarCitaCardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CrudDoctorComponent ]
+      declarations: [ EliminarCitaCardComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CrudDoctorComponent);
+    fixture = TestBed.createComponent(EliminarCitaCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

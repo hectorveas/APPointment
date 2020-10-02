@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EliminarCitaComponent } from './eliminar-cita.component';
+import { ContactanosScreenComponent } from './contactanos-screen.component';
 
-describe('EliminarCitaComponent', () => {
-  let component: EliminarCitaComponent;
-  let fixture: ComponentFixture<EliminarCitaComponent>;
+describe('ContactanosScreenComponent', () => {
+  let component: ContactanosScreenComponent;
+  let fixture: ComponentFixture<ContactanosScreenComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EliminarCitaComponent ]
+      declarations: [ ContactanosScreenComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EliminarCitaComponent);
+    fixture = TestBed.createComponent(ContactanosScreenComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
