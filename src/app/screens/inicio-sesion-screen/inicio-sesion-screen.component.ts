@@ -26,9 +26,13 @@ export class InicioSesionScreenComponent implements OnInit {
       password: new FormControl('',[Validators.required])
     });
   }
+  // temporal
+  navegarSesionDoctor() {
+    this.router.navigate(['/sesion-personal-citas-doctor']);
+  }
 
   SesionIniciada(){
-    this.router.navigate(['/sesion-personal-doctor']);
+    this.router.navigate(['/sesion-personal-citas-doctor']);
   }
 
   navegarPersonal(){

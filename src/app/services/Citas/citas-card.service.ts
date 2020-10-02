@@ -5,7 +5,7 @@ import { CITAS } from './CITAS.const';
 @Injectable({
   providedIn: 'root'
 })
-export class CitasService {
+export class CitasCardService {
 
   private citas: Cita[];
   constructor() {
