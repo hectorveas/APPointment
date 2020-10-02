@@ -22,6 +22,7 @@ import { ConsultasCardComponent } from './components/consultas-card/consultas-ca
 import { NavBarIzqComponent } from './components/nav-bar-izq/nav-bar-izq.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { InicioSesionUsuarioScreenComponent } from './screens/inicio-sesion-usuario-screen/inicio-sesion-usuario-screen.component';
+import { SesionUsuarioMiperfilComponent } from './screens/sesion-usuario-miperfil/sesion-usuario-miperfil.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { InicioSesionUsuarioScreenComponent } from './screens/inicio-sesion-usua
     NavBarIzqComponent,
     FooterComponent,
     InicioSesionUsuarioScreenComponent,
+    SesionUsuarioMiperfilComponent,
   ],
   imports: [
     BrowserModule,

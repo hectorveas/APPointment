@@ -8,6 +8,7 @@ import { RegistrarseScreenComponent } from './screens/registrarse-screen/registr
 import { SesionPersonalAyudaDoctorComponent } from './screens/sesion-personal-ayuda-doctor/sesion-personal-ayuda-doctor.component';
 import { SesionPersonalCitasDoctorComponent } from './screens/sesion-personal-citas-doctor/sesion-personal-citas-doctor.component';
 import { SesionPersonalDoctorComponent } from './screens/sesion-personal-doctor/sesion-personal-doctor.component';
+import { SesionUsuarioMiperfilComponent } from './screens/sesion-usuario-miperfil/sesion-usuario-miperfil.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path: 'sesion-personal-citas-doctor', component:SesionPersonalCitasDoctorComponent},
   {path: 'sesion-personal-doctor', component:SesionPersonalDoctorComponent},
   {path: 'inicio-sesion-usuario-screen', component:InicioSesionUsuarioScreenComponent},
+  {path: 'sesion-usuario-miperfil', component:SesionUsuarioMiperfilComponent},
   {path: '**', redirectTo:'/inicio-screen'},
 ];
 
